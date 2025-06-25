@@ -14,7 +14,7 @@ function Navbar() {
             Home
           </Link>
           <button
-            class="navbar-toggler"
+            class="navbar-toggler bg-white"
             type="button"
             data-bs-toggle="collapse"
             data-bs-target="#navbarSupportedContent"
@@ -48,6 +48,14 @@ function Navbar() {
                   className="text-white p-2 text-decoration-none"
                 >
                   Services
+                </Link>
+              </li>
+              <li class="nav-item">
+                <Link
+                  to="/ourteampage"
+                  className="text-white p-2 text-decoration-none"
+                >
+                  Our Team
                 </Link>
               </li>
             </ul>

@@ -12,6 +12,7 @@ import Layout1 from "./pages/loayouts/layout1/layout1.js";
 import Home from "./pages/home/Home.js";
 import About from "./pages/aboutUs/About.js";
 import Service from "./pages/services/Service.js";
+import TeamPage from "./pages/teamPage/TeamPage.js";
 
 function App() {
   // const cards = [
@@ -64,6 +65,7 @@ function App() {
             <Route path="/AboutUs" element={<About />} />
             <Route path="/ContactUs" element={<ContactUs />} />
             <Route path="/servicePage" element={<Service />} />
+            <Route path="/ourteampage" element={<TeamPage />} />
           </Route>
           <Route path="*" element={<h1>Page Not Found</h1>} />
         </Routes>
